@@ -1,0 +1,201 @@
+@import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+main {
+    margin: 0 160px;
+}
+
+.textGradiente {
+    font-family: "Chakra Petch", sans-serif;
+    background: linear-gradient(to right, #007DFE, #0B1974);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    color: transparent;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+header h2 {
+    font-size: 48px;
+}
+
+header img {
+    width: 120px;
+    height: auto;
+    object-fit: cover;
+    rotate: 90deg;
+}
+
+h1 {
+    width: 788px;
+    font-size: 64px;
+    font-weight: bold;
+}
+
+.Hero {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin: 50px 0;
+}
+
+.ContentHero p {
+    width: 821px;
+    height: 141px;
+    font-family: Roboto, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 36px;
+    font-weight: 400;
+}
+
+aside img {
+    width: auto;
+    height: 500px;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    width: 100%;
+    height: 80px;
+    padding: 0 30px;
+    margin-bottom: 0;
+
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    background-color:#bfbfbf7e;
+}
+
+.SeachBox input {
+    width: 650px;
+    height: 60px;
+    padding: 18px;
+    border: 0;
+    border-radius: 25px;
+}
+
+.CategoriasContainer {
+    display: flex;
+    height: 100%;
+}
+
+.categoriaBox {
+    display: flex;
+    align-items: center;
+
+    height: 100%;
+    padding: 0 30px;
+
+    border-bottom: 2px solid #C3C3C3;
+}
+
+.btnCategoria {
+    font-weight: 700;
+    color: white;
+
+    width: 124px;
+    height: 39px;
+    border: 0;
+    
+    border-radius: 20px;
+    background: linear-gradient(-39deg, #0F82F8, #354656);
+
+    transition: background 0.5s ease, transform 0.3s ease;
+}
+
+.btnCategoria.greyed {
+    background: linear-gradient(-39deg, rgb(192, 190, 190), grey) ;
+}
+
+.resultsContainer {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+
+    width: 100%;
+    height: auto;
+    padding: 60px;
+    margin: 0;
+
+    gap: 55px;
+
+    border: 1px solid rgba(0, 0, 0, 0.204);
+    border-top: 0;
+    background-color: #F9F9F9;
+}
+
+.itemSection {
+    width: 1472px;
+    height: 550px;
+}
+
+.itemSection h3 {
+    font-family: "Chakra Petch", sans-serif;
+    font-size: 48px;
+    font-weight: 700;
+}
+
+.itemBox {
+    display: flex;
+    gap: 55px;
+}
+
+.itemCard {
+    display: block;
+    width: 450px;
+    height: 450px;
+    border: 1px solid #0000007a;
+    border-radius: 20px;
+    text-decoration: none;
+    color: #000;
+    background-color: #fff;
+}
+
+.itemCard img {
+    width: 100%;
+    height: 182px;
+    object-fit: cover;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.itemCard h3 {
+    font-family: Roboto, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+
+.itemCard div {
+    width: 450px;
+    padding: 25px;
+}
+
+.itemCard p {
+    font-family: Roboto, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 16px;
+}
+
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    height: 60px;
+    margin-top: 50px;
+
+    background-color: #D9D9D9;
+}
