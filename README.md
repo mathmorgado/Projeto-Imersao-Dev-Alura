@@ -1,5 +1,7 @@
 # Programentes: Um guia para Iniciantes em Programação!
-Este projeto é um Guia para Iniciantes em Programação que visa facilitar a jornada de quem está começando no mundo da programação. O guia reúne artigos, vídeos e recursos sobre temas fundamentais, como lógica de programação, linguagens mais populares e a importância de ferramentas como Git e GitHub. O projeto foi construído usando HTML, CSS, e JavaScript para criar uma interface dinâmica e interativa.
+Este projeto é um Guia para Iniciantes em Programação que visa facilitar a jornada de quem está começando no mundo da programação. O guia reúne artigos, vídeos e recursos sobre temas fundamentais, como lógica de programação, linguagens mais populares e a importância de ferramentas como Git e GitHub. O projeto foi construído usando HTML, CSS, e JavaScript para criar uma interface dinâmica e interativa. 
+
+[Acesse ele aqui!](https://mathmorgado.github.io/Projeto-Imersao-Dev-Alura/)
 
 ## 🛠️ Tecnologias Utilizadas
 **HTML5**: Estrutura do conteúdo do site. 
