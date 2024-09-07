@@ -1,58 +1,58 @@
 let dbGuia = [
-    {
-        titulo: "Por que estudar programação?",
-        descricao: "Entenda a importância da programação no mundo moderno e como ela pode abrir portas para diversas oportunidades.",
-        link: "/artigos/por-que-estudar-programacao",
-        imagem: "images/programacaaao.jpg"
-      },
-      {
-        titulo: "Por onde começar?",
-        descricao: "Dicas essenciais para quem está começando na área de programação e quer seguir o caminho certo.",
-        link: "/artigos/por-onde-comecar-programacao",
-        imagem: "images/localizacao.jpg"
-      },
-      {
-        titulo: "Linguagens mais populares",
-        descricao: "Conheça as linguagens mais usadas no mercado e saiba qual escolher para iniciar sua carreira.",
-        link: "/artigos/linguagens-populares-programacao",
-        imagem: "images/linguagem-programacao.webp"
-      },
-      {
-        titulo: "O que é Algoritmo?",
-        descricao: "Aprenda o conceito de algoritmos e como eles são a base da programação.",
-        link: "/artigos/o-que-e-algoritmo",
-        imagem: "images/algoritmo.jpg"
-      },
-      {
-        titulo: "O que é lógica de programação?",
-        descricao: "Descubra como a lógica de programação é essencial para resolver problemas de forma eficiente.",
-        link: "/artigos/logica-programacao",
-        imagem: "images/logica.webp"
-      },
-      {
-        titulo: "O que é Front-End e Back-End?",
-        descricao: "Uma visão geral das áreas de desenvolvimento web: Front-End e Back-End.",
-        link: "/artigos/front-end-vs-back-end",
-        imagem: "images/frontBackEnd.jfif"
-      },
-      {
-        titulo: "Aprendendo Python",
-        descricao: "Uma introdução ao Python, uma das linguagens mais acessíveis para iniciantes.",
-        link: "/artigos/aprendendo-python",
-        imagem: "images/aprenderPython.webp"
-      },
-      {
-        titulo: "A importância do Git e GitHub",
-        descricao: "Saiba por que o Git e o GitHub são ferramentas fundamentais para programadores.",
-        link: "/artigos/importancia-git-github",
-        imagem: "images/git.webp"
-      },
-      {
-        titulo: "Como escolher um curso de programação?",
-        descricao: "Dicas sobre como escolher o curso ideal para começar a sua jornada na programação.",
-        link: "/artigos/escolhendo-curso-programacao",
-        imagem: "images/cursoVideo.png"
-      }
+  {
+      titulo: "Por que estudar programação?",
+      descricao: "Entenda a importância da programação no mundo moderno e como ela pode abrir portas para diversas oportunidades.",
+      link: "https://www.youtube.com/watch?v=S9uPNppGsGo&list=PLvE-ZAFRgX8hnECDn1v9HNTI71veL3oW0",
+      imagem: "images/programacaaao.jpg"
+  },
+  {
+      titulo: "Por onde começar?",
+      descricao: "Dicas essenciais para quem está começando na área de programação e quer seguir o caminho certo.",
+      link: "https://www.youtube.com/watch?v=OqiuC8bdxb4&t=69s",
+      imagem: "images/localizacao.jpg"
+  },
+  {
+      titulo: "Escolha sua Linguagem",
+      descricao: "Conheça as linguagens mais usadas no mercado e saiba qual escolher para iniciar sua carreira.",
+      link: "https://www.youtube.com/watch?v=imB0QVoNrGc",
+      imagem: "images/linguagem-programacao.webp"
+  },
+  {
+      titulo: "O que é Algoritmo?",
+      descricao: "Aprenda o conceito de algoritmos e como eles são a base da programação.",
+      link: "https://www.youtube.com/watch?v=dvNp575fwzQ",
+      imagem: "images/algoritmo.jpg"
+  },
+  {
+      titulo: "O que é lógica de programação?",
+      descricao: "Descubra como a lógica de programação é essencial para resolver problemas de forma eficiente.",
+      link: "https://www.youtube.com/watch?v=gMxQ8vxH9Vk",
+      imagem: "images/logica.webp"
+  },
+  {
+      titulo: "O que é Front-End e Back-End?",
+      descricao: "Uma visão geral das áreas de desenvolvimento web: Front-End e Back-End.",
+      link: "https://www.youtube.com/watch?v=Em0R3csNMVE",
+      imagem: "images/frontBackEnd.jfif"
+  },
+  {
+      titulo: "Aprendendo Python",
+      descricao: "Uma introdução ao Python, uma das linguagens mais acessíveis para iniciantes.",
+      link: "https://www.youtube.com/watch?v=Mp0vhMDI7fA&list=PLvE-ZAFRgX8hnECDn1v9HNTI71veL3oW0&index=3",
+      imagem: "images/aprenderPython.webp"
+  },
+  {
+      titulo: "A importância do Git e GitHub",
+      descricao: "Saiba por que o Git e o GitHub são ferramentas fundamentais para programadores.",
+      link: "https://www.youtube.com/watch?v=DqTITcMq68k",
+      imagem: "images/git.webp"
+  },
+  {
+      titulo: "Como escolher um curso de programação?",
+      descricao: "Dicas sobre como escolher o curso ideal para começar a sua jornada na programação.",
+      link: "https://www.youtube.com/watch?v=no1yHN5YsdA",
+      imagem: "images/cursoVideo.png"
+  }
 ];
 let dbCursos = [
     {
@@ -76,7 +76,7 @@ let dbCursos = [
       {
         titulo: 'EBAC',
         descricao: 'Plataforma brasileira com cursos completos e atualizados nas áreas de tecnologia, negócios e design.',
-        link: 'https://www.ebac.com.br/',
+        link: 'https://ebaconline.com.br/',
         imagem: 'images/ebac.png' // Substitua pela URL da imagem oficial
       },
       {
@@ -155,7 +155,7 @@ let dbTecnologia = [
     },
     {
         titulo: "Python",
-        descricao: "Python é uma linguagem de programação de alto nível, conhecida por sua sintaxe clara e concisa, o que a torna fácil de aprender e usar. Sua versatilidade a torna uma ferramenta poderosa para uma ampla gama de aplicações, desde desenvolvimento web e análise de dados até inteligência artificial e automação de tarefas. A grande comunidade de desenvolvedores Python e a vasta quantidade de bibliotecas disponíveis contribuem para seu sucesso contínuo no mundo da programação.",
+        descricao: "Python é uma linguagem de programação de alto nível, conhecida por sua sintaxe clara e concisa, o que a torna fácil de aprender e usar. Sua versatilidade a torna uma ferramenta poderosa para uma ampla gama de aplicações, desde desenvolvimento web e análise de dados até inteligência artificial e automação de tarefas.",
         link: "https://learnpython.org/",
         imagem: "images/Python.webp"
     },

@@ -2,7 +2,7 @@
 function getDatas(dataBase, TempVar, htmlSection) {
     for (let dado = 0; dado < 3; dado++) {
         TempVar += `
-            <a href="${dataBase[dado].link}" class="itemCard">
+            <a href="${dataBase[dado].link}" target="_blank" class="itemCard">
                 <img src="${dataBase[dado].imagem}">
                 <div>
                     <h3>${dataBase[dado].titulo}</h3>
@@ -58,7 +58,7 @@ function displaySearchResults(results) {
 
     results.forEach(result => {
         let item = `
-            <a href="${result.link}" class="itemCard">
+            <a href="${result.link}" target="_blank" class="itemCard">
                 <img src="${result.imagem}">
                 <div>
                     <h3>${result.titulo}</h3>
