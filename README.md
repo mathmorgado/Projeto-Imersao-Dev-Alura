@@ -126,7 +126,7 @@ function initialState() {
 Clone o repositório:
 
 ```bash
-git clone https://github.com/seu-usuario/seu-repositorio.git
+git clone https://github.com/mathmorgado/Projeto-Imersao-Dev-Alura.git
 ```
 Abra o arquivo index.html no navegador.
 
